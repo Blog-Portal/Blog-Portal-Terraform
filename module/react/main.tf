@@ -40,7 +40,7 @@ resource "kubernetes_deployment" "react_k8s" {
 
           env {
             name  = "REACT_APP_PORT"
-            value = "8081"
+            value = "8080"
           }
         }
       }
